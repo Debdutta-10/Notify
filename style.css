@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar {
+    margin: 2px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 7px;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.Noti {
+    color: white;
+    margin-left: 24%;
+    font-size: 1.3rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    margin: 9px;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+.home ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.home ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.home ul li a:hover {
+    color: grey;
+}
+
+.search {
+    margin-left: auto;
+}
+
+.search input {
+    height: 27px;
+    width: 181px;
+    margin-right: 20px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    border-radius:5px;
+
+}
+.head1{
+    margin-top: 22px;
+    margin-left: 88px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 2%;
+}
+.head2{
+    margin-top: 22px;
+    margin-left: 88px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 2%;
+}
+.container{
+    border: 3px solid black;
+    width: 50%;
+    margin-top: 10px;
+    margin: auto ;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey, 0 0 10px grey;
+}
+.t1{
+    font-size: 1.2rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px;
+}
+.inp1 textarea{
+    height: 13vh;
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.but1{
+    margin: 10px;
+}
+.but1 button{
+    height: 5vh;
+    width:  20%;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.but1 button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    border: 3px solid black;
+    width: 25%;
+    margin-top: 10px;
+    margin: auto ;
+    margin-bottom: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey, 0 0 10px grey;
+}
+.nn{
+    font-size: 1.2rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px;
+}
+.db button{
+    margin: 10px;
+    flex-wrap: wrap;
+    height: 5vh;
+    width:  44%;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.db button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.con2{
+    font-size: 1.2rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+margin: auto;
+}
+.sn{
+    margin: 10px;
+    font-size: 1.0rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.sear{
+    margin-right: 10px;
+}
+.sear button{
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding: 4px;
+}
+.sear button:hover{
+    box-shadow: 0 0 10px grey, 0 0 10px grey;
+}
+
+.pro{
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: -1;
+    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
